@@ -18,6 +18,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { ChartsComponent } from './components/pages/charts/charts.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AuthenticationComponent } from './components/authentication/authentication.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { AuthenticationComponent } from './components/authentication/authenticat
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
-
+[
+  "Pessoal",
   {
-    "Pessoal": [{
     "id": 1,
     "name": "Hardik",
     "email": "hardik@gmail.com",
@@ -98,5 +98,4 @@
     "role": "Militar",
     "cidade": "Cariacica"
   }
-    ]
-  }
+]
